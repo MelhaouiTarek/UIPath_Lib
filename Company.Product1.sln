@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Company.Product1", "Company.Product1", "{178597C4-5BAA-41DF-841D-00E842409A21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Product1", "Company.Product1\Company.Product1\Company.Product1.csproj", "{C9DD44BE-99BC-4EB7-9EF2-1CD62F52BD8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Product1.Activities", "Company.Product1\Company.Product1.Activities\Company.Product1.Activities.csproj", "{A35E348F-6B38-4C18-9565-572E222776A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Product1.Activities.Design", "Company.Product1\Company.Product1.Activities.Design\Company.Product1.Activities.Design.csproj", "{F84EA04A-CB3D-48F5-BFB8-88056215D033}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{53F21BC6-4E43-4E5B-A484-7A1B0562A95B}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities", "Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.shproj", "{4546856D-EA50-45C6-9419-EEEACB5A80AA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities.Design", "Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.shproj", "{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{4546856d-ea50-45c6-9419-eeeacb5a80aa}*SharedItemsImports = 13
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{a35e348f-6b38-4c18-9565-572e222776a9}*SharedItemsImports = 5
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{df9c43f0-add3-4fbf-995e-84b92f9cbf25}*SharedItemsImports = 13
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{f84ea04a-cb3d-48f5-bfb8-88056215d033}*SharedItemsImports = 5
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9DD44BE-99BC-4EB7-9EF2-1CD62F52BD8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9DD44BE-99BC-4EB7-9EF2-1CD62F52BD8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9DD44BE-99BC-4EB7-9EF2-1CD62F52BD8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9DD44BE-99BC-4EB7-9EF2-1CD62F52BD8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A35E348F-6B38-4C18-9565-572E222776A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35E348F-6B38-4C18-9565-572E222776A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35E348F-6B38-4C18-9565-572E222776A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35E348F-6B38-4C18-9565-572E222776A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F84EA04A-CB3D-48F5-BFB8-88056215D033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F84EA04A-CB3D-48F5-BFB8-88056215D033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F84EA04A-CB3D-48F5-BFB8-88056215D033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F84EA04A-CB3D-48F5-BFB8-88056215D033}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9DD44BE-99BC-4EB7-9EF2-1CD62F52BD8B} = {178597C4-5BAA-41DF-841D-00E842409A21}
+		{A35E348F-6B38-4C18-9565-572E222776A9} = {178597C4-5BAA-41DF-841D-00E842409A21}
+		{F84EA04A-CB3D-48F5-BFB8-88056215D033} = {178597C4-5BAA-41DF-841D-00E842409A21}
+		{4546856D-EA50-45C6-9419-EEEACB5A80AA} = {53F21BC6-4E43-4E5B-A484-7A1B0562A95B}
+		{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25} = {53F21BC6-4E43-4E5B-A484-7A1B0562A95B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2C6F134-7309-46F5-A025-C6976F731E69}
+	EndGlobalSection
+EndGlobal
